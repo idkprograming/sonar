@@ -1,3 +1,4 @@
+```
 #include <Servo.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -81,5 +82,4 @@ void loop() {
     pos -= 5;
     if (pos <= 0) goingForward = true;
   }
-}
-
+}```
